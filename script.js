@@ -1,30 +1,7 @@
-const toolsAndOtherProjects = [
+const mainLinks = [
     {
-        name: "Percolation",
-        url: "https://nickskurka.github.io/Percolation"
-    },
-    {
-        name: "Sprite-Generator",
-        url: "https://nickskurka.github.io/Sprite-Generator"
-    },
-    {
-        name: "Pixel-Circle-Generator",
-        url: "https://nickskurka.github.io/Pixel-Circle-Generator"
-    },
-    {
-        name: "Chess_Analyzer_V1",
-        url: "https://github.com/nickskurka/Chess_Analyzer_V1"
-    }
-];
-
-const games = [
-    {
-        name: "Darts",
-        url: "https://nickskurka.github.io/Darts"
-    },
-    {
-        name: "Space-Warriors",
-        url: "https://nickskurka.github.io/Space-Warriors"
+        name: "All In One Dashboard",
+        url: "https://nickskurka.github.io/AllInOne"
     }
 ];
 
@@ -55,6 +32,5 @@ function createLinkSection(title, links) {
     });
 }
 
-createLinkSection("Tools/Other Projects", toolsAndOtherProjects);
-createLinkSection("Games", games);
+createLinkSection("Main", mainLinks);
 createLinkSection("Social Media", socialMedia);
